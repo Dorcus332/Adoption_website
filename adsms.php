@@ -1,0 +1,73 @@
+<?php include('session.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog Adoption</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="container">
+        <ul>
+          <li><a href="nav.php">Home</a></li>
+          <li><a href="dogs-profile.html">Dogs Profile</a></li>
+          <li><a href="send.php">SendSMS</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="container">
+        <h1>Welcome to Dog Adoption</h1>
+        <p>Find your new best friend today!</p>
+      </div>
+    </header>
+
+    <section id="featured-pets">
+      <div class="container">
+        <h2>Featured Dogs</h2>
+        <div class="pet-grid">
+          <div class="pet-card">
+            <img src="ippy.jpeg" alt="Ippy" />
+            <h3>Ippy</h3>
+            <p>Breed: Mongrel</p>
+            <p>Age: 1 year</p>
+            <p>Coat: black and brown</p>
+            <p>Vaccinated</p>
+          </div>
+          <div class="pet-card">
+            <img src="thogithi.jpeg" alt="Thogithi" />
+            <h3>Thogithi</h3>
+            <p>Breed: Labrador Retriever</p>
+            <p>Age: 1 year</p>
+            <p>Coat: brown</p>
+            <p>Vaccinated</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          We are dedicated to helping you find the perfect pet for your family.
+          Browse our listings of available pets and get in touch with us to
+          learn more about the adoption process.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Dog Adoption. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
